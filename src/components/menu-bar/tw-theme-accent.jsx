@@ -15,26 +15,13 @@ import rainbowIcon from './tw-accent-rainbow.svg';
 import styles from './settings-menu.css';
 
 const options = defineMessages({
-    [ACCENT_RED]: {
-        defaultMessage: 'Red',
-        description: 'Name of the red color scheme, used by TurboWarp by default.',
-        id: 'tw.accent.red'
-    },
+
     [ACCENT_PURPLE]: {
         defaultMessage: 'Purple',
         description: 'Name of the purple color scheme. Matches modern Scratch.',
         id: 'tw.accent.purple'
-    },
-    [ACCENT_BLUE]: {
-        defaultMessage: 'Blue',
-        description: 'Name of the blue color scheme. Matches Scratch before the high contrast update.',
-        id: 'tw.accent.blue'
-    },
-    [ACCENT_RAINBOW]: {
-        defaultMessage: 'Rainbow',
-        description: 'Name of color scheme that uses a rainbow.',
-        id: 'tw.accent.rainbow'
     }
+
 });
 
 const icons = {
